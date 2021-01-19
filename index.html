@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="css.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -33,7 +34,7 @@
      <button class="home__contact">contact me</button>
     </section>
     <!--about-->
-    <section id="about" class="section">
+    <section id="about" class="section section__container">
         <h1>About me</h1>
         <p>
             CodePen is a social development environment for front-end</br>
@@ -73,20 +74,25 @@
         </div>
         <div class="about__jobs">
             <div class="job">
+            <div class="job__description">
              <img src="imgs/jobs/2 (2).png" alt="goole" class="job__logo">
             <p class="job__name">goolee</p>
             <p class="job__period">2020-2025</p>
             </div>
+            </div>
             <div class="job">
+            <div class="job__description">
             <img src="imgs/jobs/2 (2).png" alt="google" class="job__logo">
             <p class="job__name">goolee</p>
             <p class="job__period">2020-2025</p>
             </div>
-        </div>
-    </section>
+           </div>
+           </div>
+         </section>
     <!--skils-->
-    <section id="skils" class="section">
-        <h1>Skils</h1>
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skils</h1>
         <h2>Sills & Attributes</h2>
         <p>
             CodePen is a social development environment for front-end</br>
@@ -95,17 +101,18 @@
        </br>show off your work, build test cases to learn and debug, and 
            find inspiration
         </p>
-        <div class="skilset" class="section">
+        <div class="skillset" class="section">
         <div class="skillset__left">
         <h3 class="skillset__title">Skils</h3>
-        <div class="skill__description">
+        <div class="skill___description">
             <span>HTML</span>
-            <span>99%</span>
+            <span>90%</span>
         </div>
         <div class="skill__bar">
-            <div class="skill__value"></div>
+            <div class="skill__value" style="width: 90%;"></div>
         </div>
         </div>
+        
         <div class="sillset__right">
             <div class="tools">
                 <h3 class="skillset__title">Tools</h3>
@@ -128,7 +135,7 @@
             </div>
         </div>
         </div>
-
+        </div>
     </section>
     <!--work-->
     <section id="work" class="section">
